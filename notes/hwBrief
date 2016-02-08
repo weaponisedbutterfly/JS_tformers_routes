@@ -1,0 +1,13 @@
+Express Homework
+
+This homework will help you practice with an Express app and accessing a data structure
+Create a RESTful Express app for a resource of your choice (cars, guitars, users, food etc.).
+Your resource should be represented by an array of JavaScript objects, each with a unique id.
+You should use a router for your routes
+Implement the 7 RESTful routes.
+To start you off, create a directory for your app and install the npm modules in your directory...
+npm init
+npm install express --save
+npm install body-parser --save
+npm install ejs --save
+npm install express-ejs-layouts --save
