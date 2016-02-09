@@ -1,5 +1,5 @@
 var robots = {
-  "transFormers": [
+  "transformers": [
     {
       "name": "Optimus Prime",
       "size": "28",
