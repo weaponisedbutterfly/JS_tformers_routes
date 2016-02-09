@@ -1,7 +1,8 @@
 var express = require('express');
 var app = express();
 
-var robots = require('./models/robots.js');
+// var robots = require('./models/robots.js');
+var robotRouter = require('./controllers/robotRouter.js');
 
 var expressLayouts = require('express-ejs-layouts');
 
@@ -10,6 +11,7 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 
 app.use(expressLayouts);
+app.use("/robots", robotRouter);
 
 // Below line tells it to look in public folder for CSS 
 app.use(express.static(__dirname + '/public'));

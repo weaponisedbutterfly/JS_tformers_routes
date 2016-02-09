@@ -1,3 +1,8 @@
-body{
-  background-color: gray;
+
+body  {
+    background-image: url("./galvatron.jpg");
+  color: black;
+  text-shadow: 1px 1px 4px #ff0101;
+  font-family: 'Orbitron', 
+  sans-serif;
 }
